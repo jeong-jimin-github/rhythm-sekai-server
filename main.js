@@ -67,7 +67,7 @@ function startGame(roomId) {
 }
 
 // 서버 시작
-const PORT = 8000;
+const PORT = 80;
 server.listen(PORT, () => {
     console.log('Server listening on port ' + PORT);
 });
